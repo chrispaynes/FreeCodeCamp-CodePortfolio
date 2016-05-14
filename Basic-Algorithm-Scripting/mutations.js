@@ -40,7 +40,7 @@ function mutation(arr) {
     }
     
     //compare the true and false indexOf() results against an array filled with all true values
-    result = duplArr[words] === true;
+    result = duplArr[i] === true;
   }
   return result;
 }
